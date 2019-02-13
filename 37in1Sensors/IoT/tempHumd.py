@@ -25,12 +25,12 @@ print('KY-015 sensortest - temperature and humidity')
 #with open("twitter_credentials.json", "r") as file:  
 #    creds = json.load(file)
 
-#python_tweets = Twython('XA9Zcq4c3QnDBBFyWxBvfjM6K', 'MeA8kQ7vGAyd5PF16Oz9AZsM5keubNqZcJClK76qltd51XrSaW')
+#python_tweets = Twython('XXXX', 'XXXX')
 # personal details 
-consumer_key ="XA9Zcq4c3QnDBBFyWxBvfjM6K"
-consumer_secret ="MeA8kQ7vGAyd5PF16Oz9AZsM5keubNqZcJClK76qltd51XrSaW"
-access_token ="33478508-5FBhoJtjxewJFBsNqRaacmxlhXhOJlnmAK3p1e9Ra"
-access_token_secret ="0DIdGsq5E4vbCy1C9qjbUmIEBlRVsxx0Yf38mKpOysJ5r"
+consumer_key ="XXXX"
+consumer_secret ="XXXX"
+access_token ="XXXX"
+access_token_secret ="XXXX"
 
 # authentication of consumer key and secret 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret) 
