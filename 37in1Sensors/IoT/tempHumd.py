@@ -57,7 +57,7 @@ s.login("bhgtankita@gmail.com", "Sunstar$*123456")
 message = "temperature = {0:0.1f}C  | rel. humidity = {1:0.1f}%".format(temper, humid)
   
 # sending the mail 
-s.sendmail("bhgtankita@gmail.com", "gautham.k.28@gmail.com", message) 
+s.sendmail("XXXX@gmail.com", "XXXX@gmail.com", message) 
   
 # terminating the session 
 s.quit() 
