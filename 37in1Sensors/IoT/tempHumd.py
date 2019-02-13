@@ -51,7 +51,7 @@ s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls() 
   
 # Authentication 
-s.login("bhgtankita@gmail.com", "Sunstar$*123456") 
+s.login("XXXX@gmail.com", "XXXX") 
   
 # message to be sent 
 message = "temperature = {0:0.1f}C  | rel. humidity = {1:0.1f}%".format(temper, humid)
